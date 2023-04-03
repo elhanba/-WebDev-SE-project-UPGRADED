@@ -1,0 +1,251 @@
+body {
+    font-size: 20px;
+  }
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #212529;
+  }
+  li {
+    float:right;
+  }
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  footer {
+  text-align: left;
+  font-size: 17px;
+  padding: 10px;
+  background-color: #212529;
+  color: white;
+  bottom: 0;
+  width: 100%;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+#okvir{
+    border:2px solid orangered;
+    width:auto;
+    border-radius:10px;
+}
+
+#okvir2{
+    margin:10%;
+    border:2px solid orangered;
+    width:auto;
+    border-radius:10px;
+}
+
+.pr{
+    font-size: 17px;
+    margin-left: 10%;
+    margin-right: 40%;
+    text-align: justify;
+    transition: font 3s, margin 3s, color 3s;
+}
+.pr:hover{
+    color: orangered;
+    text-align: center;
+    margin-right: 10%;
+    font-size:23px;
+}
+
+.pr-nocenter{
+    font-size: 17px;
+    margin-left: 1%;
+    margin-right: 40%;
+    text-align: justify;
+    transition: font 3s, margin 3s, color 3s;
+}
+.pr-nocenter:hover{
+    color: orangered;
+    margin-right: 10%;
+    font-size:23px;
+}
+
+.pr2{
+    text-align: center;
+    font-style: italic;
+    transition: font 2s, margin 2s, color 2s;
+}
+.pr2:hover{
+    color: orangered;
+    text-align: center;
+    font-size:27px;
+}
+
+.pr3{
+    font-size: x-large;
+    margin-left: 20%; margin-right: 20%;
+    text-align: center;
+    font-style: italic;
+    transition: font 2s, margin 2s, color 2s;
+}
+.pr3:hover{
+    color: orangered;
+    text-align: center;
+    font-size:33px;
+}
+
+
+.btn-an{
+    margin-left: 10%;
+    width: 10%;
+    padding: 0.3%;
+    background-color: orangered;
+    color: white;
+    border-color: orangered;
+    border-radius: 0%;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align:justify;
+    animation-name:animacija1;
+    animation-duration:13s;
+}
+@keyframes animacija1{
+    from{background-color:white;border-color:white;}
+    to{background-color:orangered;border-color:orangered;}
+}
+
+.btn-sc{
+    width: 5.4%;
+    padding: 0.3%;
+    background-color: #212529;
+    color: white;
+    border-color: #212529;
+    border-radius: 0%;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align:justify;
+}
+
+.btn-welcome{
+    position: absolute;
+    margin-left: 10%;
+    width: 1.1%;
+    border-radius: 40%;
+    padding: 0.3%;
+    background-color: orangered;
+    color: white;
+    border-color: orangered;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.btn-info{
+    margin-left: 10%;
+    width: 13%;
+    border-radius: 0%;
+    padding: 0.3%;
+    background-color: orangered;
+    color: white;
+    border-color: orangered;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.info{
+    margin-left: 10%;
+    width: 13%;
+}
+
+.btn-refresh{
+    margin-left: 2%;
+    width: 4%;
+    border-radius: 0%;
+    padding: 0.3%;
+    background-color: orangered;
+    color: white;
+    border-color: orangered;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.btn-an-c{
+    margin-left: 1%;
+    width: 10%;
+    padding: 0.3%;
+    background-color: orangered;
+    color: white;
+    border-color: orangered;
+    border-radius: 0%;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align:justify;
+    animation-name:animacija1;
+    animation-duration:13s;
+}
+@keyframes animacija1{
+    from{background-color:white;border-color:white;}
+    to{background-color:orangered;border-color:orangered;}
+}
+
+.btn-an-cm{
+    margin-left: 1%;
+    width: 10%;
+    padding: 0.3%;
+    background-color: orangered;
+    color: white;
+    border-color: orangered;
+    border-radius: 0%;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align:justify;
+    animation-name:animacija-m;
+    animation-duration:13s;
+}
+@keyframes animacija-m{
+    from{background-color:white;border-color:white;}
+    to{background-color:orangered;border-color:orangered;}
+}
+
+.btn-an2{
+    margin-left: 10%;
+    width: 10%;
+    padding: 0.3%;
+    background-color: orangered;
+    color: white;
+    border-color: orangered;
+    border-radius: 0%;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align:justify;
+    animation-name:animacija2;
+    animation-duration:13s;
+}
+@keyframes animacija2{ 
+    from{background-color:#212529;border-color:#212529;color:#212529}
+    to{background-color:orangered;border-color:orangered;color:white;}
+}
+
+.kol
+{
+    font-size: 17px;
+    margin-left: 10%;
+    margin-right: 10%;
+    text-align: justify;
+    column-count:3;
+    column-gap:70px;
+    column-rule-style:outset;
+    column-rule-width:3px;
+    column-rule-color:orangered; 
+}
+
+#gradijent{
+    background:linear-gradient(70deg,white,orangered);
+    font-size: 80px;
+    margin-left: 10%;
+    margin-right: 10%;
+    text-align: center;
+    color: #212529;
+}
+
+.tekst-sh{
+    text-shadow:2px 2px orangered;
+}
+
+#sjena{
+    font-size: 22px;
+    margin-right:85%;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background: white;
+    box-shadow:10px 10px 20px orangered;
+}
